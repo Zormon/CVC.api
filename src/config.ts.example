@@ -1,0 +1,18 @@
+const config:T_AppConf = {
+    server: {
+      port: 3000
+    },
+    db: {
+      host: '127.0.0.1',
+      user: 'user',
+      password: 'pass',
+      database: 'base',
+      connectionLimit: 10
+    },
+    vcomm: {
+      bearer: 'XXXXXX',
+      XOrg: 'XXXXXX'
+    }
+  }
+  
+  export default config
